@@ -1,6 +1,6 @@
 const express = require ('express')
 
-// Routers
+// Routers 
 const { registrationsRouter } = require('./routes/registrations.route');
 
 // Utils
@@ -23,6 +23,8 @@ db.sync()
     .then(()=>console.log('Db synced'))
     .catch(err=>console.log(err));
 
-app.listen(4001, ()=>{
+app.listen(4000, ()=>{
     console.log('Express app running!');
 })
+
+// Tenga buen dia profe :D 
