@@ -15,6 +15,7 @@ app.use(express.json());
 app.use('/api/v1/registrations', registrationsRouter);
 
 
+
 db.authenticate()
     .then(()=>console.log('Db authenticated'))
     .catch(err=>console.log(err));
