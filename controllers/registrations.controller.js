@@ -14,6 +14,7 @@ const getAllRegistrations = async (req, res) => {
 	}
 };
 
+
 const createRegistration = async (req, res) => {
 	try {
 		
